@@ -1,0 +1,64 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Javascript on steroids</title>
+  </head>
+  <body>
+
+    <div class="container-5">
+    
+    <!-- --------------------------------- INNER SECTION-1 ----------------------------------------- -->
+      <h2>BlackJack Game</h2>
+      <h3>
+        <span id="blackJack-result">Let's Play</span>
+      </h3>
+
+    <!-- --------------------------------- INNER SECTION-2 ----------------------------------------- -->
+      <div class="flex-blackjack-row-1">
+        <div class="" id="your-box">
+          <h2>You : <span id="your-blackjack-result">0</span></h2>
+        </div>
+        <div class="" id="dealer-box">
+          <h2>Computer : <span id="dealer-blackjack-result">0</span></h2>
+        </div>
+      </div>
+
+    <!-- --------------------------------- INNER SECTION-3 ----------------------------------------- -->
+      <div class="flex-blackjack-row-2">
+        <div>
+          <button class="btn btn-primary" id="blackjack-hit-button">Hit</button>
+          <button class="btn btn-warning" id="blackjack-stand-button">
+            Stand
+          </button>
+          <button class="btn btn-danger" id="blackjack-deal-button">
+            Deal
+          </button>
+        </div>
+      </div>
+
+    <!-- --------------------------------- INNER SECTION-4 ----------------------------------------- -->
+      <div class="flex-blackjack-row-3">
+        <table style="border: 1px solid black">
+          <tr style="border: 1px solid black">
+            <th>Wins</th>
+            <th>Losses</th>
+            <th>Draws</th>
+          </tr>
+          <tr style="border: 1px solid black">
+            <td><span id="wins">0</span></td>
+            <td><span id="losses">0</span></td>
+            <td><span id="draws">0</span></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
